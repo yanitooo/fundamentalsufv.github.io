@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Entradas</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    
+    <script>
+        function validarEntradas() {
+            // Obtener los valores de las entradas de texto
+            var entrada1 = document.getElementById('entrada1').value;
+            var entrada2 = document.getElementById('entrada2').value;
+
+            // Definir las cadenas correctas
+            var correcta1 = 'ipv6'; // Cambia esto por tu valor correcto
+            var correcta2 = 'periodismo'; // Cambia esto por tu valor correcto
+
+            // Verificar si las entradas son correctas
+            if (entrada1 === correcta1 && entrada2 === correcta2) {
+                // Redirigir a un enlace si las entradas son correctas
+                window.location.href = 'https://youtu.be/dQw4w9WgXcQ?si=f9Zciaqm5YBs-Q66&t=43'; // Cambia esto por tu enlace correcto
+            } else {
+                // Mostrar un mensaje de error si las entradas son incorrectas
+                alert('Entradas incorrectas. Inténtalo de nuevo.');
+            }
+        }
+    </script>
+</head>
+<body>
+	<header>
+        <nav  class="barranav"> 
+            <a href="/Inicio.html"><img src="/images/logo_porsche pagina.png" id="logo_pagina"></a>
+            <a href="/Inicio.html">Inicio</a>
+            <a href="/Public/Tema.html">Tema</a>
+            <a href="/Public/FII.html">FII</a>
+            <a href="/Public/Red.html">Red</a>
+            <a href="/Public/Contacto.html">Contacto</a>
+            <a href="/Public/SobreMi.html">Sobre mi</a>
+        </nav>
+        </header>
+    
+    <!--Primera Clave : ipv6 -->
+    <section>
+        <article class="texto_sorpresa">
+            <p> Si has encontrado esto, Felicidades, ahora puedes empezar el juego. Tienes que encontrar dos claves que estan ocultas por las paginas(Pista: Mira los comentarios de codigo de esta pagina, quizas encuentras algo mas en Sobre Mi?).</p>
+        
+        </article>
+    </section>
+        <section id="Formulario2">
+		<div class="wrapper2">
+			<form>
+				<h1>Claves</h1>
+				<div class="input-box2">
+                    <input type="text" id="entrada1" placeholder="Primera Clave">
+				</div>
+				<div class="input-box2">
+                    <input type="text" id="entrada2" placeholder="Segunda Clave">
+				</div>
+                <button type="button" onclick="validarEntradas()" class="btn2">Validar</button>
+			</form>
+		</div>
+	</section>
+
+</body>
+</html>

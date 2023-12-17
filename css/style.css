@@ -1,0 +1,468 @@
+body{
+    background-color: #DED3BD;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    display: flex;
+    height: fit-content;
+    background-color: #DED3BD;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+  
+}
+
+#logo_pagina {
+    width: 100px;
+    padding-right: 20px;
+}
+
+.barranav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding-left: 23%;
+    
+}
+
+.barranav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight:900;
+    color: #1A0700;
+}
+
+
+a:hover {
+   color: #4d1400;
+   transition: transform 0.5s;
+   transform:translateY(-1.25px) 
+
+}
+
+
+
+
+
+
+
+/* Pagina de Inicio*/
+
+#foto_inicio{
+    display: flex;
+    width: 100%;
+    right: 0;
+    padding: 100px 0 ;
+    margin: -10px;
+    justify-content: center;
+    right: 0;
+}
+
+
+.footer_inicio{
+    position: relative;
+    padding: 100px;
+    background: #bfa27e;
+    color: #1A0700;
+    font-size: 20px;
+    font-weight: 500;
+    margin: -8px;
+    
+
+}
+
+.texto_inicio h1{
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+#lista_inicio{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.vinculo_texto {
+    text-decoration: none;
+    color: #1A0700;
+    font-weight: 600;
+}
+
+#vinculo-sorpresa {
+    text-decoration: none;
+    color: #1A0700;
+}
+
+#vinculo-sorpresa:hover{
+    color: red;
+}
+
+
+/*Pagina de Tema*/
+.seccion_porsche1{
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 800px;
+    background-image: url(/images/porsche1.jpg);
+    background-position-x: 70%;
+    background-position-y: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.seccion_porsche1 h1{
+    padding-top: 500px;
+    padding-right: 120px;
+    font-size: 50px;
+    color: #dbe2e6;
+}
+.texto_tema{
+    padding: 100px;
+    font-size: 25px;
+}
+
+
+
+
+/* Pagina de FII*/
+
+.temariofunda {
+    padding-top: 150px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+}
+.temariofunda h1{
+    font-size: 30px;
+}
+
+.tabla {
+    width: 100%;
+    border: 1px solid #fff9e6;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: #1A0700;
+    color: #fff9e6;
+   
+}
+.tabla th{
+    border: 1px solid #fff9e6;
+}
+.tabla td{
+    border: 1px solid #fff9e6;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/*Pagina de FII detalle*/
+
+.texto_fii_detalle{
+    padding-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+.texto_fii_detalle h1{
+    font-size: 30px;
+}
+
+.tabla_detalle{
+    margin: 0 auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+.tabla_detalle th{
+    font-size: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid ;
+}
+.tabla_detalle td{
+    padding-top: 20px;
+    border-bottom: 1px solid;
+}
+.texto_fii_detalle p{
+    font-size: 20px;
+
+}
+
+/*Pagina de Red*/
+
+.tabla_compañeros{
+margin: 100px auto;
+width: 30%;
+border-collapse: collapse;
+
+}
+.tabla_compañeros th{
+    border-bottom: 1px solid#1A0700;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.tabla_compañeros td{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+
+}
+.tabla_compañeros td a{
+    text-decoration: none;
+    color: #1A0700;
+}
+.tabla_compañeros td a:hover{
+    color: #832300;
+}
+
+
+
+/* Pagina de Contacto*/
+
+#Formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.wrapper{
+    width: 420px;
+    background: #1A0700;
+    color: #fff9e6;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+.wrapper h1{
+    font-size: 36px;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+
+.input-box input{
+    width: 82.5%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'Playfair Display',serif;
+    color: #fff9e6;
+    padding: 0px 35px;
+}
+
+
+.input-box input::placeholder{
+    color: #fff9e6;
+}
+
+textarea{
+    width: 82.5%;
+    height: 70px;
+    background: transparent;
+    border:none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: 'Playfair Display',serif;
+    color: #fff9e6;
+    padding: 0px 35px;
+    padding-top: 8px;
+    resize: none;
+
+}
+
+textarea::placeholder{
+    color: #fff9e6;
+    font-family: 'Playfair Display',serif;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff9e6;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Playfair Display',serif;
+    color: #1A0700;
+    font-weight: 600;
+    margin: 25px 0;
+
+}
+
+/*Pagina Sobre Mi*/
+
+.texto_sobremi{
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0;
+    font-size: 25px;
+}
+.texto_sobremi h1{
+    text-align: center;
+}
+#titulo_fotos{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: -40px;
+}
+#fotos1{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#fotos1 img{
+    border: 4px solid;
+    border-radius: 20px;
+}
+
+#titulo-mas-info{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.mas_info {
+    float: right;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #1A0700;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+.mas_info th{
+    color: #fff9e6;
+    border-bottom: 2px solid #fff9e6;
+    font-size: 20px;
+}
+
+.curriculum {
+    float: left;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 25px;
+    background: #1A0700;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+.curriculum th{
+    color: #fff9e6;
+    border-bottom: 2px solid #fff9e6;
+    font-size: 20px;
+}
+.curriculum td{
+    padding: 15px;
+}
+
+
+/*Pagina Sorpresa*/
+
+.texto_sorpresa {
+    padding: 150px 200px 90px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#Formulario2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+}
+
+.wrapper2{
+    width: 420px;
+    background: #1A0700;
+    color: #fff9e6;
+    border-radius: 80px;
+    padding: 30px 40px;
+
+}
+
+.wrapper2 h1{
+    font-size: 36px;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+}
+
+.wrapper2 .input-box2{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    margin: 30px 0;
+
+}
+
+.input-box2 input{
+    width: 82.5%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'Playfair Display',serif;
+    color: #fff9e6;
+    padding: 0px 35px;
+}
+
+
+.input-box2 input::placeholder{
+    color: #fff9e6;
+}
+
+.wrapper2 .btn2{
+    width: 100%;
+    height: 70px;
+    background: #fff9e6;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Playfair Display',serif;
+    color: #1A0700;
+    font-weight: 600;
+    margin: 25px 0;
+
+}
